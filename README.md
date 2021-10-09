@@ -15,6 +15,9 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Ivan Sitmorang
 <br>
-NIM   :
+NIM   : 14116109
+![image](https://user-images.githubusercontent.com/40586882/136644672-307276f1-3704-4d9c-a39d-748acec30f8c.png)
+
+
