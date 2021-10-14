@@ -18,3 +18,5 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 Nama  : Ivan Situmorang
 <br>
 NIM   : 14116109
+
+![ss_tugas_minggu2](https://user-images.githubusercontent.com/40586882/137342094-b3e15433-d48e-46e4-996b-b0ceeb156c61.jpg)
