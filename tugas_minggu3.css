@@ -1,0 +1,51 @@
+.half-circle {
+    width: 350px;
+    height: 300px; /* as the half of the width */
+    background-color: black;
+    border-bottom-left-radius: 300px;  /* 100px of height + 10px of border */
+    /* 100px of height + 10px of border */
+    border-bottom: 0;
+    float: right;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.half-circle p{
+    margin-top: 110px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+label  {
+    font-size: 30px ;
+}
+
+select{
+    height: 30px;
+    width: 70px;
+}
+
+button{
+    height: 30px;
+    width: 100px;s
+
+}
+input{
+    height: 25px;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#hasilfaktorial{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 150px;
+}

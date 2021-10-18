@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tugas Minggu 3</title>
+	<link rel="stylesheet" type="text/css" href="tugas_minggu3.css">
+
+</head>
+<body>
+	<div class="half-circle">
+		<p>Ivan Situmorang
+			14116109
+		</p>
+	</div>
+	<h1>Tugas Minggu 3 </h1>
+	<p>
+	<label>Pilih Warna Tema</label>
+	<select id="tema">
+		<option>red</option>
+		<option>yellow</option>
+		<option>green</option>
+		<option>blue</option>
+		<option>white</option>
+	</select>
+	<button id="warna" type="button">Ubah Warna</button>
+	</p>
+
+	<p>
+	<label>Masukkan Nilai Faktorial</label>
+	<input type="number" name="" id="inputfaktorial">
+	<button type="button" id="faktorial">Hasil</button>
+	</p>
+
+	<p id="hasilfaktorial"></p>
+
+<script type="text/javascript">
+	
+	const result = document.getElementById("hasil");
+	const tombolwarna = document.querySelector('#warna');
+	const tombolfaktorial = document.querySelector('#faktorial');
+
+	tombolwarna.addEventListener('click', function () {
+		const e = document.getElementById("tema");
+		const isi = e.options[e.selectedIndex].value;
+
+		document.body.style.background = isi;
+	})
+
+
+	tombolfaktorial.addEventListener('click', function(){
+		const nilai = document.getElementById("inputfaktorial").value;
+		var a = 1;
+
+		for (var i = 1 ; i <= nilai ; i++) {
+			a = a * i;
+			document.getElementById("hasilfaktorial").innerHTML = nilai +"! ="+a;
+		}
+
+	})
+
+
+
+
+
+
+</script>
+</body>
+</html>
